@@ -76,6 +76,11 @@ nav ul li a {
     padding: 0 5% 0 3%;
     width: 75%;
 }
+.content img {
+    float: left;
+    margin-right: 20px;
+    margin-left: 10px;
+}
 .contact .content {  
     display: flex;
     padding: 20px 0 10px 0;
@@ -107,11 +112,9 @@ nav ul li a {
 }
 .grid-text {
     background-color: var(--secondary-color);
-    position: absolute;
-    bottom: 20px;
-    right: 5px;
-    padding-right: 20px;
-    margin-left:150px;    
+    position: absolute;    
+    bottom: 20px; 
+    right: 5px;          
 }
 .grid-container a{
     text-decoration: none;
@@ -122,12 +125,14 @@ nav ul li a {
     grid-row: 1 /span 2;
     text-align: left;
     position: relative;
-    border: 2px solid var(--secondary-color);
-    
+    border: 2px solid var(--secondary-color);    
 }
 .grid-item {
     border: 2px solid var(--secondary-color);
+    position: relative;
 }
 .primary-work .grid-text{
     padding-left: 15px;
+    margin-left:150px;
+    padding-right: 20px; 
 }
