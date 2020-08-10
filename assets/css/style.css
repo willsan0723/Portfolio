@@ -14,7 +14,6 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
-
  }
  header h1 {
      background-color: lightskyblue;
@@ -29,6 +28,7 @@
      display: flex;
      justify-content: space-between;
      list-style: none;
+     padding-right: 50px;
  }
  
 nav ul li a {
@@ -40,12 +40,9 @@ nav ul li a {
  .hero {
      background-image: url("../images/cover.jpg");
      background-size: cover;
-     width: 100%;     
      padding: 125px;
      display: flex;
-     align-items: flex-end;
      justify-content: flex-end;
-     flex-wrap: wrap;
      background-attachment: fixed;
      background-position: center;
  }
@@ -53,4 +50,13 @@ nav ul li a {
     font-size: 30px;
     background-color: lightskyblue;
     position: relative;
+    top: 80px;
+    right: 25px;
+}
+.section-title h2{
+    font-size: 45px;
+    display: inline-block;
+}
+.section-title {    
+    border-right: 7px solid darkblue;
 }
