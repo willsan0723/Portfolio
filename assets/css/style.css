@@ -53,10 +53,30 @@ nav ul li a {
     top: 80px;
     right: 25px;
 }
-.section-title h2{
-    font-size: 45px;
-    display: inline-block;
+
+.major {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
 }
-.section-title {    
-    border-right: 7px solid darkblue;
+.title {
+    font-size: 33px;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+.content {    
+    border-left: 3px solid darkblue;
+    padding: 0 5% 0 3%;
+}
+.contact .content {  
+    align-items: center;
+}
+
+.grid-wrap {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.grid-wrap div {
+
 }
